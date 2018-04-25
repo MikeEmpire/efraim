@@ -10,6 +10,11 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ *= require "1st_load_framework"
+ *= require "./_buttons.scss"
+ *= require "./home/modules/_typography.scss"
+ *= require "./home/partials/_navigation.scss"
+ *= require "./home/_base.scss"
+ *= require "_responsive.scss"
  *= require_self
  */
