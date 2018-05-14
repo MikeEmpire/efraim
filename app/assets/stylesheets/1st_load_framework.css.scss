@@ -1,7 +1,11 @@
 // import the CSS framework
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+a {
+  color: white;
+  font-size: large;
+  padding: 6px;
+}
 // make all images responsive by default
 img {
   @extend .img-responsive;
