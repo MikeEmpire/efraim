@@ -1,3 +1,4 @@
+@import "../typography";
 $color-1: #ae8f8c;
 
 html {
@@ -21,7 +22,7 @@ main {
 }
 
 #header-bg {
-  background-image: image-url("EfraimBG.jpg");
+  background-image: image-url("EfraimBG_copy.jpg");
   background-position: center center;
   background-size: cover;
   height: 100vh;
@@ -82,7 +83,7 @@ h1 {
 td {
   border-top: 0px solid transparent !important;
   color: white;
-  font-family: Montserrat;
+  font-family: $font-2;
   height: 8vh;
   font-weight: 300;
 }
