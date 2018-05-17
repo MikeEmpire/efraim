@@ -8825,17 +8825,24 @@ button.close {
     display: none !important;
   }
 }
-/* line 6, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
+/* line 4, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
+a {
+  color: white;
+  font-size: large;
+  padding: 6px;
+}
+
+/* line 10, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
 img {
   margin: 0 auto;
 }
 
-/* line 11, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
+/* line 15, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
 .navbar-brand {
   font-size: inherit;
 }
 
-/* line 36, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
+/* line 40, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
 main {
   background-color: #eee;
   padding-bottom: 80px;
@@ -8843,7 +8850,7 @@ main {
   margin-top: 51px;
 }
 
-/* line 43, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
+/* line 47, /Users/afamolie/projects/efraim/app/assets/stylesheets/1st_load_framework.css.scss */
 section {
   margin-top: 20px;
 }
@@ -8856,97 +8863,108 @@ section {
   font-family: Gotham Black;
   background-color: crimson;
 }
-/* line 3, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+
+/* line 11, /Users/afamolie/projects/efraim/app/assets/stylesheets/_buttons.scss */
+.col-3 button {
+  color: black;
+  background-color: whitesmoke;
+  margin-right: 5px;
+}
+/* line 4, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 html {
   background-color: black;
 }
 
-/* line 7, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 8, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 section {
   height: 100vh;
   margin: 0;
   position: relative;
 }
 
-/* line 13, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 14, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #youtube-section {
   height: 90vh;
 }
 
-/* line 17, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 18, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 main {
   background-color: black;
   margin-top: 0;
   padding: 0;
 }
 
-/* line 23, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 24, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg {
-  background-image: url(/assets/EfraimBG-a8e6f376263d298dced0d6012fd3734bc63d88309005c2e8f15561af0b006d88.jpg);
+  background-image: url(/assets/EfraimBG_copy-34895707e4b28e9c0de892b6b505fdd77aa6e5131c6177b09e1c7ac191f5657f.jpg);
   background-position: center center;
   background-size: cover;
   height: 100vh;
   margin: 0;
   position: relative;
 }
-/* line 30, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 31, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+#header-bg iframe {
+  margin: 4%;
+}
+/* line 34, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+#header-bg #social {
+  float: right;
+  margin: 2%;
+}
+/* line 38, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media {
   bottom: 0%;
   position: absolute;
   width: 100%;
 }
-/* line 34, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 42, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media .col-xs-12 {
   padding: 0;
 }
-/* line 37, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 45, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media img {
   position: relative;
 }
-/* line 40, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 48, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media ul {
   padding: 0;
   font-size: -webkit-xxx-large;
   text-align: center;
 }
-/* line 44, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 52, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media ul a {
   color: white;
 }
-/* line 48, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
-#header-bg #media #spotify {
-  margin-left: 3%;
-  padding-top: 4%;
-}
-/* line 51, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 57, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media #spotify h1 {
   color: white;
   font-size: 2.6rem;
   letter-spacing: 5px;
-  text-align: left;
+  text-align: center;
 }
-/* line 57, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 63, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media #spotify ul {
   text-align: center;
 }
-/* line 60, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 66, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media #spotify .fa {
   font-size: large;
 }
 
-/* line 67, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 73, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #youtube {
   width: 100%;
   margin-top: 10%;
   height: 50rem;
 }
 
-/* line 73, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 79, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 h1 {
   letter-spacing: 25px;
 }
 
-/* line 77, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 83, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 td {
   border-top: 0px solid transparent !important;
   color: white;
@@ -8955,23 +8973,23 @@ td {
   font-weight: 300;
 }
 
-/* line 84, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 90, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 td.col-1 {
   font-weight: 400;
   text-transform: uppercase;
   width: 8%;
 }
 
-/* line 90, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 96, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 td.col-2 {
   width: 40%;
 }
 
-/* line 93, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 99, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #tour h1 {
   letter-spacing: 12px;
 }
-/* line 96, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 102, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #tour h1 td.col-3 button {
   background-color: white;
   color: black;
@@ -8981,13 +8999,13 @@ td.col-2 {
 }
 
 @font-face {
-  font-family: "Gotham Black";
-  src: url("/assets/GothamBlack.ttf");
+  font-family: "Coda Heavy";
+  src: url("/assets/Coda-Heavy.ttf");
 }
 /* line 9, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/modules/_typography.scss */
 h1,
 h2 {
-  font-family: Gotham Black;
+  font-family: Coda Heavy;
 }
 
 /* line 14, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/modules/_typography.scss */
@@ -9064,97 +9082,127 @@ span#search {
     font-size: 18px;
   }
 }
-/* line 3, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 3, /Users/afamolie/projects/efraim/app/assets/stylesheets/about/_main.scss */
+#about p {
+  color: white;
+  font-family: Montserrat;
+  margin: 1% 2%;
+  text-indent: 1%;
+}
+/* line 9, /Users/afamolie/projects/efraim/app/assets/stylesheets/about/_main.scss */
+#about h1 {
+  margin-bottom: 4%;
+  margin-top: 3%;
+}
+/* line 3, /Users/afamolie/projects/efraim/app/assets/stylesheets/contact/_main.scss */
+#contact h1 {
+  margin-bottom: 4%;
+  margin-top: 3%;
+}
+/* line 7, /Users/afamolie/projects/efraim/app/assets/stylesheets/contact/_main.scss */
+#contact h5 {
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 10%;
+  line-height: 3em;
+  color: white;
+  font-size: xx-large;
+}
+/* line 4, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 html {
   background-color: black;
 }
 
-/* line 7, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 8, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 section {
   height: 100vh;
   margin: 0;
   position: relative;
 }
 
-/* line 13, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 14, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #youtube-section {
   height: 90vh;
 }
 
-/* line 17, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 18, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 main {
   background-color: black;
   margin-top: 0;
   padding: 0;
 }
 
-/* line 23, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 24, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg {
-  background-image: url(/assets/EfraimBG-a8e6f376263d298dced0d6012fd3734bc63d88309005c2e8f15561af0b006d88.jpg);
+  background-image: url(/assets/EfraimBG_copy-34895707e4b28e9c0de892b6b505fdd77aa6e5131c6177b09e1c7ac191f5657f.jpg);
   background-position: center center;
   background-size: cover;
   height: 100vh;
   margin: 0;
   position: relative;
 }
-/* line 30, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 31, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+#header-bg iframe {
+  margin: 4%;
+}
+/* line 34, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+#header-bg #social {
+  float: right;
+  margin: 2%;
+}
+/* line 38, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media {
   bottom: 0%;
   position: absolute;
   width: 100%;
 }
-/* line 34, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 42, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media .col-xs-12 {
   padding: 0;
 }
-/* line 37, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 45, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media img {
   position: relative;
 }
-/* line 40, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 48, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media ul {
   padding: 0;
   font-size: -webkit-xxx-large;
   text-align: center;
 }
-/* line 44, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 52, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media ul a {
   color: white;
 }
-/* line 48, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
-#header-bg #media #spotify {
-  margin-left: 3%;
-  padding-top: 4%;
-}
-/* line 51, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 57, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media #spotify h1 {
   color: white;
   font-size: 2.6rem;
   letter-spacing: 5px;
-  text-align: left;
+  text-align: center;
 }
-/* line 57, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 63, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media #spotify ul {
   text-align: center;
 }
-/* line 60, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 66, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #header-bg #media #spotify .fa {
   font-size: large;
 }
 
-/* line 67, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 73, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #youtube {
   width: 100%;
   margin-top: 10%;
   height: 50rem;
 }
 
-/* line 73, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 79, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 h1 {
   letter-spacing: 25px;
 }
 
-/* line 77, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 83, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 td {
   border-top: 0px solid transparent !important;
   color: white;
@@ -9163,23 +9211,23 @@ td {
   font-weight: 300;
 }
 
-/* line 84, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 90, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 td.col-1 {
   font-weight: 400;
   text-transform: uppercase;
   width: 8%;
 }
 
-/* line 90, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 96, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 td.col-2 {
   width: 40%;
 }
 
-/* line 93, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 99, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #tour h1 {
   letter-spacing: 12px;
 }
-/* line 96, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
+/* line 102, /Users/afamolie/projects/efraim/app/assets/stylesheets/home/_base.scss */
 #tour h1 td.col-3 button {
   background-color: white;
   color: black;
@@ -9251,6 +9299,8 @@ td.col-2 {
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+
+
 
 
 
